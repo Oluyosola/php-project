@@ -1,7 +1,7 @@
 <?php
-$base_salary = 4500;
-$accumulated_a = $base_salary+ 1200;
-$accumulated_b = $base_salary+ 1500;
+define('base_salary', 4500);
+$accumulated_a = base_salary+ 1200;
+$accumulated_b = base_salary+ 1500;
 echo "accumulated salary of worker a is ".$accumulated_a;
 echo "accumulated salary of worker b is " .$accumulated_b;
 $work_days_a = 30;
