@@ -1,22 +1,19 @@
 <?php
-$a = 4500;
-$b = 4500;
-$accumulated_a = $a + 1200;
-$accumulated_b = $b + 1500;
+$base_salary = 4500;
+$accumulated_a = $base_salary+ 1200;
+$accumulated_b = $base_salary+ 1500;
 echo "accumulated salary of worker a is ".$accumulated_a;
-echo "<br>";
 echo "accumulated salary of worker b is " .$accumulated_b;
-echo "<br>";
 $work_days_a = 30;
 $work_days_b = 28;
-echo "amount earned by worker a is ".$accumulated_a/$work_days_a;
-echo "<br>";
-echo "amount earned by worker b is ".$accumulated_b/$work_days_b;
+$one_day_salary_of_a =$accumulated_a/$work_days_a;
+$one_day_salary_of_b =$accumulated_a/$work_days_b;
+echo "amount earned by worker a is ". $one_day_salary_of_a;
+
+echo "amount earned by worker b is ".$one_day_salary_of_b;
 $work_days= 5;
-echo "<br>";
-echo "amount earned in five days by a ".$accumulated_a/$work_days;
-echo "<br>";
-echo "amount earned in five days by b ".$accumulated_b/$work_days;
+echo "amount earned in five days by a ".$one_day_salary_of_a * $work_days;
+echo "amount earned in five days by b ".$one_day_salary_of_b* $work_days;
 
 
 ?> 
