@@ -5,12 +5,8 @@ echo count($departments_in_TA);
 sort($departments_in_TA);
 //prints departments according to number of employees//
 print_r($departments_in_TA);
+$array = array(1,2,3,4,5);
+//prints index zero//
+echo $array[0];
 
-$animals[0] = "bird";
-$animals[1] = "cat";
-$animals[2] = "dog";
-$animals[3] = "goat";
-$animals[4] = "wolve";
-echo $animals[0];
-print_r(array_keys($animals, "wolve"));
 ?>
