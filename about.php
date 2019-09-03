@@ -8,6 +8,22 @@ define ("pi",3.147);
 $radius = 5;
 $area_of_a_circle = pi*($radius^2);
 echo "the area of a circle is ". $area_of_a_circle;
-statement = true;
-echo !statement;
+$days_of_the_month[0] = "Sunday";
+$days_of_the_month[1] = "Monday";
+$days_of_the_month[2] = "Tuesday";
+$days_of_the_month[3] = "Wednesday";
+$days_of_the_month[4] = "Thursday";
+$days_of_the_month[5] = "Friday";
+$days_of_the_month[6] = "Saturday";
+
+echo $days_of_the_month[4];
+$movies =array(
+    "comedy" => array("Pink Panther", "John English", "See no evil hear no evil"),
+    "action" => array("Die Hard", "Expendables"),
+    "epic" => array("The Lord of the rings"),
+    "Romance" => array("Romeo and Juliet")
+    );
+    print_r($movies);
+
+
 ?>
