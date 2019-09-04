@@ -17,13 +17,16 @@ $days_of_the_month[5] = "Friday";
 $days_of_the_month[6] = "Saturday";
 
 echo $days_of_the_month[4];
-$movies =array(
-    "comedy" => array("Pink Panther", "John English", "See no evil hear no evil"),
-    "action" => array("Die Hard", "Expendables"),
-    "epic" => array("The Lord of the rings"),
-    "Romance" => array("Romeo and Juliet")
-    );
-    print_r($movies);
+
+
+function add_number($n, $m){
+
+}
+echo 2 + 3;
+function display_name($name){
+    echo "Hello". $name;
+}
+    display_name ("Oluyosola");
 
 
 ?>
