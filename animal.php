@@ -23,6 +23,6 @@ function getWeight($animals){
 $animals  = array("cat" => 65, "dog" => 72, "aheep" => 40);
 sort($animals);
 
-print_r($animals);
+echo min($animals);
 
 ?>
