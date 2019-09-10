@@ -1,17 +1,16 @@
 <?php
 
 function animalName($animals) {
-if ($animals == "cat"){
-    $weight = 65;
-}  
-elseif ($animals == "dog"){
-    $weight = 72;
-} elseif ($animals == "sheep"){
-    $weight = 40;
-}else {
-    $weight = 0;
-}
-return $weight;
+    if ($animals == "cat"){
+        $weight = 65;
+    }elseif ($animals == "dog"){
+        $weight = 72;
+    }elseif($animals == "sheep"){
+        $weight = 40;
+    }else{
+        $weight = 0;
+    }
+    return $weight;
 }
 // function getWeight($animals){
 //     return getWeight(); 
