@@ -1,17 +1,19 @@
 <?php
 //performs simple calculation
 function calculator($action, $a ,$b){
-    if ($action == "add"){
+    $convert = strtolower($action);
+    if ($convert == "add"){
         $calculate = $a + $b;
-    }elseif ($action == "subtract"){
+    }elseif ($convert == "subtract"){
         $calculate = $a - $b;
-    }elseif($action == "multiply"){
+    }elseif($convert == "multiply"){
         $calculate = $a * $b;
-    }elseif($action == "divide"){
+    }elseif($convert == "divide"){
         $calculate = $a / $b;
     }else{
         $calculate = "invalid action";
     }
-    echo "$calculate";
+    return $calculate;
 }
+//echo calculator ('DiVIde', 4, 5);
 ?>
