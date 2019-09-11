@@ -14,5 +14,4 @@ function calculator($action, $a ,$b){
     }
     echo "$calculate";
 }
-echo calculator('multiply', 4, 6)
 ?>
