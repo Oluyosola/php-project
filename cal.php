@@ -13,7 +13,7 @@ if(isset($_GET['calculator'])):
         }
         elseif($operation == "multiply"){
             $calculate = $a_numeric *  $b_numeric;
-        }elseif($operation == "divide"){
+        }elseif($operation == "division"){
             $calculate = $a_numeric / $b_numeric;
       }
       else{
