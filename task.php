@@ -26,7 +26,7 @@ print_r ($_SESSION);
 <?php
 function attendance($department, $staff_name, $staff_id){
     $_SESSION [$department] = array($staff_name, $staff_id);
-    $_SESSION [$department]
+    $_SESSION [$department];
     switch ($_SESSION [$department]){
     case $_SESSION ['system_engineering']:
     echo $staff_name, $staff_id;

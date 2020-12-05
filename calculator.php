@@ -15,5 +15,5 @@ function calculator($action, $a ,$b){
     }
     return $calculate;
 }
-//echo calculator ('DiVIde', 4, 5);
+echo calculator ('DiVIde', 4, 5);
 ?>

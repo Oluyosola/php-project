@@ -4,22 +4,22 @@ function register($name, $file_id, $department){
     switch($department){
         case "ward1":
         $_SESSION[$department] = array($name, $file_id);
-        braek;
+        break;
         case "ward2":
         $_SESSION[$department] = array($name, $file_id);
-        braek;
+        break;
         case "ward3":
         $_SESSION[$department] = array($name, $file_id);
-        braek;
+        break;
         case "ward4":
         $_SESSION[$department] = array($name, $file_id);
-        braek;
+        break;
         case "ward5":
         $_SESSION[$department] = array($name, $file_id);
-        braek;
+        break;
         default:
-        $_SESSION['visitor] = array($name, $file_id);
-        braek;
+        $_SESSION[$visitor] = array($name, $file_id);
+        break;
     }
       
 }

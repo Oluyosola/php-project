@@ -5,7 +5,7 @@ if(isset($_GET['calculator'])):
     $b_numeric = $_GET['b'];
     $operation = $_GET['operations'];
     if(is_numeric($a_numeric) && is_numeric($b_numeric )){
-        // echo "it is numeric";
+        //  echo "it is numeric";
         if ($operation == "add"){
             $calculate = $a_numeric +  $b_numeric;
         }elseif ($operation == "subtract"){
@@ -24,3 +24,4 @@ if(isset($_GET['calculator'])):
         echo "either A or B is not numeric";
     }
 endif;
+?>
