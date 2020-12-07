@@ -18,7 +18,7 @@ function register($name, $file_id, $department){
         $_SESSION[$department] = array($name, $file_id);
         break;
         default:
-        $_SESSION[$visitor] = array($name, $file_id);
+        // $_SESSION[$visitor] = array($name, $file_id);
         break;
     }
       
